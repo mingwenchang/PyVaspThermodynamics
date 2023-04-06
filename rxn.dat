@@ -1,0 +1,51 @@
+###############################################################################
+#                                                                             #      
+#   Thermodynamic properties for a surace reaction were derived               #
+#   from ab-initio principles based on the harmonical approximation and       #
+#   transition state theory, in whcich all degrees of freedom are treated     #
+#   as the harmonic oscillator, and reaction constants are estimated using    #
+#   Eyring  eqtation                                                          #
+#                                                                             #
+#   For more details, please see:                                             #
+#       https://en.wikipedia.org/wiki/Harmonic_oscillator                     #    
+#       https://en.wikipedia.org/wiki/Vibrational_partition_function          #
+#       https://en.wikipedia.org/wiki/Transition_state_theory                 #
+#       https://en.wikipedia.org/wiki/Eyring_equation                         # 
+#                                                                             #
+###############################################################################
+    
+==============================================================================
+A surface reaction occures at T = 900.00 K:
+
+The fequency factor: 
+kT/h  =            1.875295e+13 (s-1)
+
+Vibrational partition functions:
+q_IS =             6.448963e+04
+q_TS =             3.651655e+04
+q_FS =             1.387372e+04
+
+Ratios of vibrational partition functions:
+q_TS/q_IS =        5.662391e-01
+q_TS/q_FS =        2.632066e+00    
+    
+Pre-exponential factors:  
+Afwd  =            1.061865e+13
+Arev  =            4.935900e+13  
+ 
+Reaction constants:  
+kfwd  =            1.061865e+13 (s-1)
+krev  =            4.935900e+13 (s-1) 
+
+Equilibrium constant:    
+Keq  =             3.142543e+03
+  
+------------------------------------------------------------------------------
+Thermodynamic properties:
+Ea =                   1.178079 (eV)
+Ga =                   1.228529 (eV)
+dH =                   0.505375 (eV)
+dS =                  -0.000117 (eV/K)
+TdS =                 -0.105416 (eV)
+dG =                   0.610791 (eV)
+===============================================================================

@@ -1,0 +1,51 @@
+###############################################################################
+#                                                                             #      
+#   Thermodynamic properties of an ideal-gas were derived from                #
+#   ab-initio principles using stastistical thermodynamic partition           #
+#   function.                                                                 #
+#                                                                             #
+#   For more details, please see:                                             #
+#       https://en.wikipedia.org/wiki/Translational_partition_function        #
+#       https://en.wikipedia.org/wiki/Rotational_partition_function           #
+#       https://en.wikipedia.org/wiki/Vibrational_partition_function          #
+#                                                                             #
+###############################################################################
+
+==============================================================================
+System: 
+Molecule = Al64O96Pt8C2H4
+Mass = 4851.45 (amu)
+Geometry = linear
+Symmetry num. = 1
+Spin = 0
+
+Enviroment:  
+Temperature = 200.00 (K)
+Pressure = 101325.00 (Pa)
+Effective Area:     1.000000e-20 (m^2)
+------------------------------------------------------------------------------
+Partition functions for each component:
+q_trans2D =        3.183475e+03 
+q_trans3D =        4.894955e+09 
+q_rot =            1.297976e+06
+q_vib =           -1.117340e-01
+q_ele =            1.000000e+00
+
+Total artition function:
+qtotal_2D =       -4.616930e+08
+qtotal_3D =       -7.099055e+14
+
+The rate constant: 
+kads =             2.710253e+06 (for the non-activated adsorption)
+------------------------------------------------------------------------------
+Thermodynamic properties:
+E_total =           -918.221496 (eV)
+E_ZPE =                1.205703 (eV)
+Cp(T) =                0.000746 (eV/K)
+TS =                        nan (eV)
+S(T) =                      nan (eV/K)
+U(T) =              -916.835529 (eV)
+H(T) =              -916.818294 (eV)
+F(T) =                      nan (eV)
+G(T) =                      nan (eV)
+==============================================================================
